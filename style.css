@@ -1,0 +1,193 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+    .navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+header {
+  background-color:#fff;
+  color: #fff;
+  padding: 20px 0;
+}
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .hero {
+    background-color: aquamarine;
+    background-image: url("data:image/jpeg;base64,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");
+    background-size: cover;
+    color: #150101;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .about,
+  .programs,
+  .campus,
+  .contact {
+    padding: 50px 0;
+    text-align: justify;
+    box-align: justify;
+    
+  }
+  .about{
+    background-color: #db9fc2;
+    
+  }
+  .programs{
+    background-color: rgb(235, 167, 133);
+  }
+  .contact{
+    background-color: rgb(149, 221, 125);
+    caret-color: rgb(127, 37, 37);
+  }
+  .programs img,
+  .campus img{
+    
+        float: left;
+        width:  200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    
+  }
+  
+  .about h2,
+  .programs h2,
+  .campus h2,
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .campus{
+    text-align: left;
+    background-color: aqua;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  input[type=text], textarea  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
